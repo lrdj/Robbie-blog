@@ -10,22 +10,9 @@ layout: page
 	</div>
 </section>
 
-<section class="diagonal alternate">
-	<div class="text-container">
-		<h2>Next post</h2>
-		<div class="blog-post">
-			{% if page.next %}
-				{% include post-summary.html post=page.next %}
-			{% elsif page.previous %}
-				{% include post-summary.html post=page.previous %}
-			{% endif %}
-		</div>
-	</div>
-</section>
-
 {% if page.comments %}
 
-<section class="diagonal">
+<section class="diagonal alternate">
 	<div class="container">
 
 		<h2>Comments</h2>
@@ -42,4 +29,23 @@ layout: page
 	</div>
 </section>
 
+<section class="diagonal">
+
+{% else %}
+
+<section class="diagonal alternate">
+
 {% endif %}
+
+	<div class="text-container">
+		<h2>Next post</h2>
+		<div class="blog-post">
+			{% if page.next %}
+				{% include post-summary.html post=page.next %}
+			{% elsif page.previous %}
+				{% include post-summary.html post=page.previous %}
+			{% endif %}
+		</div>
+	</div>
+</section>
+
