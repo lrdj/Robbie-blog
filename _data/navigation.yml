@@ -1,9 +1,5 @@
 links:
-- name: Portfolio
-  link: /portfolio/
-- name: Blog
+- name: Robbie's Blog
   link: /blog/
-- name: About
-  link: /about/
-- name: Contact
-  link: /contact/
+- name: Robbie's pictures
+  link: http://flickr.com/
