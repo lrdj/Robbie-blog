@@ -21,6 +21,7 @@ layout: page
 	    {% for comment in page.comments %}
 	    <p>Posted by: {{ comment.authorLink }} on {{ comment.postedDate }}</p>
 	    <p>{{ comment.commentBody }}</p>
+	    <hr>
 	    {% endfor %}
     </div>
 
