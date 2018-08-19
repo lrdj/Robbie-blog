@@ -12,7 +12,6 @@ comments:
     authorLink: Nate
     authorID: <img alt="Author Profile Page" src="http://mtengine.pumpernickle.net/assets/images/nav-commenters.gif" width="16" height="16" /> 
     postedDate: October 12, 2005 11:26 AM
-comments:
   - commentID: c2084
     commentBody: thank you Nate (whoever you are) I like that one too
     authorLink: <a title="http://www.robbiebushe.co.uk" href="http://www.robbiebushe.co.uk" rel="nofollow">robbie</a>
