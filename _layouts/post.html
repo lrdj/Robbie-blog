@@ -18,12 +18,10 @@ layout: page
 		<h2>Comments</h2>
 
     <div id="disqus_thread">
-			<dl>
-			    {% for comment in page.comments %}
-			    <dt>Posted by: {{ comment.authorLink }} on {{ comment.postedDate }}</dt>
-			    <dd>{{ comment.commentBody }}</dd>
-			    {% endfor %}
-			</dl>
+	    {% for comment in page.comments %}
+	    <p>Posted by: {{ comment.authorLink }} on {{ comment.postedDate }}</p>
+	    <p>{{ comment.commentBody }}</p>
+	    {% endfor %}
     </div>
 
 	</div>
